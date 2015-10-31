@@ -1,5 +1,73 @@
 # Changelog 
 
+## 3.0.13
+* upd treeview for method addLeaf, now method returned li
+* upd bower config
+* init clock plugin
+* fix draggable for preventDefault
+* upd draggable add data-z-index attribute
+* upd f-menu add subclass default-dropdown
+* upd panel remove default padding for panel content
+* add textarea autoresize with max height
+* fix calendar for support const METRO_CURRENT_LOCALE
+* fix tabcontrol frames overflow
+* new font icons (+42)
+
+## 3.0.12
+* add color schemes for calendar
+* fix bug in calendar after pull-request 785  
+
+## 3.0.11
+* add keypad onChange event
+* chg progressBar animation model
+* fix box sizing for FF
+* chg progressBar role to progress and progress method to set
+* chg tabControl role to tabcontrol
+* add option for auto open dialog
+* fix important bug for multi role defining  
+* add draggable plugin
+* upd dialog for creating wizards in
+* upd calendar with pull request [785](https://github.com/olton/Metro-UI-CSS/pull/785)
+
+## 3.0.10
+* fix modern input initialize with value
+* remove alert for check select2 plugin exists
+* add public methods slideTo, nextSlide, priorSlide for carousel
+* fix carousel method slideToSlide if next index eq current 
+* add rtl support for input controls
+* add input range
+* add new preloaders
+* fix slider value method if target is defined
+
+## 3.0.9
+* add hotkeys binding
+* fix fluent-menu initialize
+
+## 3.0.8
+* upd font declaration add sans-serif
+* add responsive for sidebar
+* add tile factor 1.25 for devices with width <= 800px
+* add hint timeout
+* add hint time delay
+* add hotkeys plugin by [John Resig](https://github.com/jeresig)
+* add noConflict support
+* init RTL support (partial)
+* move all media to standalone file metro-responsive
+* add support for [RequireJS](http://forum.metroui.org.ua/viewtopic.php?pid=614#p614)
+* add charm widget
+* add fluent menu 
+* add color schemes module metro-schemes
+* add color schemes for app-bar
+* add color schemes for v-menu
+* add color schemes for d-menu
+* add color schemes for t-menu
+* add color schemes for sidebar
+* fix min width for sidebar2 item
+* add rotate dropdown-toggle marker
+* add onclick event and touch for tile plugin
+* upd touch support for slider
+* upd event binding model for widgets [Event binding](http://metroui.org.ua/events.html)
+
 ## 3.0.7
 * add padding for container on mobile devices
 * add handler for fitImage for window resize

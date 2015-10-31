@@ -19,6 +19,9 @@
     "main": [
         "build/css/metro.css",
         "build/css/metro-icons.css",
+        "build/css/metro-rtl.css",
+        "build/css/metro-responsive.css",
+        "build/css/metro-schemes.css",
         "build/fonts/metro.eot",
         "build/fonts/metro.svg",
         "build/fonts/metro.ttf",
@@ -26,6 +29,10 @@
         "build/js/metro.js"
     ],
     "ignore": [
+        "node_modules",
+        "bower_components",
+        "docs",
+        "test"
     ],
       "dependencies": {
         "jquery": ">= 1.9.1"
